@@ -28,23 +28,6 @@ BBFFBFFBFFB...
 | Q-score (Phred)   | ≥30         | ≥20     |  
 | Adapter Content   | <5%         | -       |  
 
-## Execution Modes  
-
-### 1. Full Pipeline (FASTQ → Results)  
-```bash  
-./pipeline/run_pipeline.sh -i raw_data.fastq -all  
-```  
-*Processes:*  
-1. QC → 2. Host Removal → 3. Assembly → 4. HYMET Analysis  
-
-### 2. Partial Processing  
-```bash  
-# Only QC + Host removal  
-./pipeline/run_pipeline.sh -i input.fastq -qc -hostremoval  
-
-# Start from intermediate files  
-./pipeline/run_pipeline.sh -i cleaned.fna -assembly  
-```  
 
 ## File Structure Examples  
 
@@ -78,8 +61,12 @@ pigz -9 file.fastq      # Parallel compression
 ```  
 ---
 
+## Next Step: Choose Your Analysis Path
+
+[**I just want to classify my reads: Convert FASTQ to FASTA**   
+→ See conversion guide](https://inesbmartins02.github.io/hymet-docs/hymetsimple.md){: .btn .btn-purple }
+
 [**Run full pipeline: QC or/and Host Removal or/and Assembly**  
 *(Recommended for host-contaminated samples)*  
 → Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
 
-[Back to Basic Input](https://inesbmartins02.github.io/hymet-docs/basicinput.html)
