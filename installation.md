@@ -2,6 +2,7 @@
 title: Installation
 layout: home
 nav_order: 2
+parent: Home
 ---
 
 ## Table of Contents
