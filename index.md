@@ -17,7 +17,7 @@ HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be download
        alt="Diagrama completo do pipeline HYMET"
        style="max-width: 100%; height: auto; width: 600px;">
   <figcaption style="font-style: italic; margin-top: 0.5rem; color: #555;">
-    Figura 1: Fluxo de análise metagenômica desde o input até resultados taxonômicos
+    HYMET's workflow
   </figcaption>
 </figure>
 ---
