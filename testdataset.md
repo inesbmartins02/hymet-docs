@@ -87,6 +87,9 @@ python3 mutationGCF.py
 **Parameters:**  
 - Input/output paths  
 - Mutation rate (0-1, e.g., 0.2 for 20% mutation)  
-
----  
+  
 *Note: Process taxonomic groups separately to avoid system overload*
+
+## Next Step:
+
+[**Execute HYMET**](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple .mr-2 }
