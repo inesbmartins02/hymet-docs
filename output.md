@@ -4,8 +4,7 @@ layout: home
 nav_order: 10
 ---
 
-# Output
-## Understanding HYMET Output
+# HYMET Output
 
 After running HYMET, the tool generates an output file with taxonomic classifications. The output is formatted as follows:
 

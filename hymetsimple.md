@@ -28,6 +28,27 @@ The tool will then process the input files and perform the taxonomic identificat
 > **Note**: Ensure that your input directory contains properly formatted `.fna` files before running the tool.
 
 ---
+### Execution Flow
+
+```mermaid
+graph LR
+    A[Input FASTQ/FASTA] --> B{k-mer Screening}
+    B --> C[Mash Screen]
+    C --> D{Dynamic Reference<br>Database Construction}
+    D --> E{Genome Size<br>Analysis}
+    E -->|Large Genomes| F[Mashmap2]
+    E -->|Small Genomes| G[Minimap2]
+    F --> H[Taxonomic Assignment]
+    G --> H
+    H --> I[Weighted LCA]
+    I --> J[Confidence Scoring]
+    J --> K[(Comprehensive<br>Output)]
+    
+    style B stroke:#ff9f43,stroke-width:2px
+    style D stroke:#00b894,stroke-width:2px
+    style I stroke:#6c5ce7,stroke-width:2px
+```
+---
 
 ## Mash Threshold and Candidate Selection
 

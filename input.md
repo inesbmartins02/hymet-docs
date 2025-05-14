@@ -9,7 +9,7 @@ has_children: true
 
 HYMET accepts multiple input types across different processing modes, each optimized for specific research scenarios. This section guides you through:  
 
-1. **[Basic Input](https://inesbmartins02.github.io/hymet-docs/basicinput.html)**: Standard FASTA requirements for direct analysis  
+1. **[Basic Input](https://inesbmartins02.github.io/hymet-docs/basicinput.html)**: Standard FASTA requirements for direct analysis (taxonomic classification only)
 2. **[Pipeline Input](https://inesbmartins02.github.io/hymet-docs/pipelineinput.html)**: Raw FASTQ specifications for complete preprocessing  
 3. **[Test Dataset](https://inesbmartins02.github.io/hymet-docs/testdataset.html)**: Verified example files for pipeline validation  
 
@@ -17,9 +17,9 @@ HYMET accepts multiple input types across different processing modes, each optim
 
 | Analysis Stage          | Recommended Format | Use Case |  
 |-------------------------|--------------------|----------|  
-| **Direct Classification** | Processed FASTA    | Re-analysis of assembled contigs |  
-| **Full Metagenomics**    | Raw FASTQ          | End-to-end analysis from sequencing reads |  
-| **Method Validation**    | Test Dataset       | Protocol testing and benchmarking |  
+| **Direct Classification** | Processed FASTA    | Taxonomic classification of processed reads assembled contigs |  
+| **Full Metagenomics**    | Raw FASTQ          | End-to-end analysis from sequencing reads to taxonomic classification |  
+| **Method Validation**    | Test Dataset       | Taxonomic classification and benchmarking |  
 
 
 ## Which Scenario Describes Your Needs?  
