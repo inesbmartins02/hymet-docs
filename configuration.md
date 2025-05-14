@@ -4,14 +4,16 @@ layout: home
 nav_order: 2
 ---
 
-# Reference Sketched Databases
+# Configuration
+
+## Reference Sketched Databases
 
 The databases required to run the tool are available for download on Google Drive:
 - **sketch1.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 - **sketch2.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 - **sketch3.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 
-## Steps to Use the Databases
+### Steps to Use the Databases
 
 1. **Download the Files**:
    - Click on the links above to download the `.gz` files.
@@ -36,7 +38,7 @@ The databases required to run the tool are available for download on Google Driv
    - You should see the files `sketch1.msh`, `sketch2.msh`, and `sketch3.msh`.
 
 
-# Initial setup
+## Initial setup
 Ensure all scripts have execution permissions:
    ```bash
    chmod +x config.pl
@@ -45,16 +47,10 @@ Ensure all scripts have execution permissions:
    chmod +x scripts/*.py
    ```
 
-After installation and configuration, first you should run the configuration script to download and prepare the taxonomy files, and define the main paths.
+After installation, first you should run the configuration script to download and prepare the taxonomy files, and define the main paths.
 
 ```bash
 ./config.pl
-```
-
-Then, you can run the main tool to perform taxonomic identification:
-
-```bash
-./main.pl
 ```
 
 If installed via Conda, you can use:

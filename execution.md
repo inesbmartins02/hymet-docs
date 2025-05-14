@@ -5,7 +5,9 @@ nav_order: 7
 has_children: true
 ---
 
-# **Execution Modes**
+# Running HYMET
+
+## Execution Modes
 
 HYMET offers two complementary approaches to metagenomic analysis:
 
