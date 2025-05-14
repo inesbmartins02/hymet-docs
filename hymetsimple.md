@@ -32,7 +32,7 @@ The tool will then process the input files and perform the taxonomic identificat
 
 ```mermaid
 graph LR
-    A[Input FASTQ/FASTA] --> B{k-mer Screening}
+    A[Input FASTA reads/contigs] --> B{k-mer Screening}
     B --> C[Mash Screen]
     C --> D{Dynamic Reference<br>Database Construction}
     D --> E{Genome Size<br>Analysis}
