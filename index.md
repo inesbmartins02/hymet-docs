@@ -12,13 +12,6 @@ HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be download
 ---
 ### **Workflow**
 
-<!-- {% include image.html 
-   file="/assets/images/hymet.png" 
-   alt="HYMET Pipeline Diagram" 
-   caption="Figure 1: Complete HYMET workflow from raw data to taxonomic analysis"
-   width="600" %} -->
-
-
 
 ---
 ### **Execution Modes**
