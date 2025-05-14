@@ -2,7 +2,7 @@
 title: Home
 layout: home
 ---
-HYMET is a hybrid metagenomic tool designed for taxonomic identification and analysis of metagenomic sequences. It combines multiple approaches to provide accurate and reliable results. This section provides step-by-step instructions on how to install, configure, and use HYMET.
+HYMET is a hybrid metagenomic tool designed for taxonomic identification and analysis of metagenomic sequences. It combines multiple approaches to provide accurate and reliable results. This provides step-by-step instructions on how to install, configure, and use HYMET.
 
 <!-- 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
