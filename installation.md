@@ -13,9 +13,7 @@ To begin using HYMET, you must first install and configure the tool. We provide 
 The easiest way to install HYMET is through Bioconda:
 
 ```
-
 conda install -c bioconda hymet
-
 ```
 
 ## Clone the Repository
@@ -23,10 +21,8 @@ conda install -c bioconda hymet
 Alternatively, you can clone the repository to your local environment:
 
 ```
-
 git clone [https://github.com/inesbmartins02/HYMET.git](https://github.com/inesbmartins02/HYMET.git)
 cd HYMET
-
 ```
 
 ## Installation with Docker
@@ -36,17 +32,13 @@ If you prefer using Docker, follow these steps:
 ### Build the Docker Image
 
 ```
-
 docker build -t hymet .
-
 ```
 
 ### Run the Container
 
 ```
-
 docker run -it hymet
-
 ```
 
 **Inside the Container:** The environment will already be set up with all dependencies installed. Run the tool as needed.
@@ -58,15 +50,11 @@ If you cloned the repository, you can create a Conda environment from the includ
 ### Create the Conda Environment
 
 ```
-
 conda env create -f environment.yml
-
 ```
 
 ### Activate the Environment
 
 ```
-
 conda activate hymet_env
-
 ```
