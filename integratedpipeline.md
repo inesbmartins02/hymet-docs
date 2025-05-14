@@ -15,8 +15,7 @@ parent: Running HYMET
 - Handles intermediate file passing between stages
 
 ### Execution Flow
-```mermaid
-graph TD
+```graph TD
     A[Input FASTQ] --> B{QC Step?}
     B -->|Yes| C[Trimmomatic]
     B -->|No| D{Host Removal?}
