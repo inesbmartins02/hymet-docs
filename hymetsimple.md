@@ -48,8 +48,6 @@ Where:
 * `3.25`: The default multiplier for candidate selection.
 * A minimum of 5 candidates is enforced, even for small datasets.
 
----
-
 ### Adjusting the Threshold
 
 You can adjust the threshold based on the type and size of your input data:
