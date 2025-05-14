@@ -20,42 +20,5 @@ HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be download
   </figcaption>
 </figure>
 ---
-```mermaid
-graph LR
-    %% Optional Preprocessing
-    A[Raw FASTQ] --> B{QC?}
-    B -->|Yes| C[Trimmomatic]
-    B -->|No| D{Preprocessing<br>Required?}
-    C --> D
-    D -->|Yes| E[Host Removal<br>(Bowtie2)]
-    D -->|No| F{Assembly?}
-    E --> F
-    F -->|Yes| G[SPAdes]
-    F -->|No| H[Convert to FASTA]
-    G --> H
-    
-    %% Core HYMET Pipeline
-    H --> I[k-mer Screening<br>(Mash Screen)]
-    I --> J{Dynamic Reference<br>Database Construction}
-    J --> K{Genome Size<br>Analysis}
-    K -->|Large Genomes| L[Mashmap2]
-    K -->|Small Genomes| M[Minimap2]
-    L --> N[Taxonomic Assignment]
-    M --> N
-    N --> O[Weighted LCA]
-    O --> P[Confidence Scoring]
-    P --> Q[(Final Report)]
-    
-    %% Style Definitions
-    style A stroke:#3498db,stroke-width:2px
-    style B stroke:#f39c12,stroke-width:2px
-    style D stroke:#f39c12,stroke-width:2px
-    style I stroke:#e74c3c,stroke-width:2px
-    style J stroke:#2ecc71,stroke-width:2px
-    style O stroke:#9b59b6,stroke-width:2px
-    
-    classDef optional fill:#f8f9fa,stroke:#bdc3c7,stroke-dasharray:5
-    class B,D,F optional
-```
 
 [Get started with installation →](https://inesbmartins02.github.io/hymet-docs/installation.html)
