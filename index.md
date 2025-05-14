@@ -10,13 +10,13 @@ HYMET (Hybrid Metagenomic Tool) is a pipeline designed for taxonomic identificat
 HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be downloaded [here](https://github.com/inesbmartins02/HYMET2/releases).
 
 ---
-### **Workflow**
+### **Workflow overview**
 
-<figure style="float: left; margin: 2rem 1rem 1rem 0; width: 600px;">
+<figure style="text-align: center; margin: 2rem 0;">
   <img src="{{ '/assets/images/hymet.png' | relative_url }}" 
        alt="Diagrama completo do pipeline HYMET"
-       style="max-width: 100%; height: auto;">
-  <figcaption style="font-style: italic; margin-top: 0.5rem; color: #555; text-align: left;">
+       style="max-width: 100%; height: auto; width: 600px;">
+  <figcaption style="font-style: italic; margin-top: 0.5rem; color: #555;">
   </figcaption>
 </figure>
 ---
