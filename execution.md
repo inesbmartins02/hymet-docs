@@ -2,7 +2,6 @@
 title: Running HYMET
 layout: home
 nav_order: 4
-parent: Home
 ---
 
 # Running HYMET

@@ -1,15 +1,8 @@
 ---
 title: Installation
 layout: home
-nav_order: 2
-parent: Home
+nav_order: 1
 ---
-
-## Table of Contents
-- [Installation with Conda (Recommended)](#1-installation-with-conda-recommended)
-- [Clone the Repository](#2-clone-the-repository)
-- [Installation with Docker](#3-installation-with-docker)
-- [Installation with Conda Environment File](#4-installation-with-conda-environment-file)
 
 # Installation
 

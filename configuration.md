@@ -1,8 +1,7 @@
 ---
 title: Configuration
 layout: home
-nav_order: 3
-parent: Home
+nav_order: 2
 ---
 
 # Reference Sketched Databases
