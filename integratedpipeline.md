@@ -15,6 +15,20 @@ parent: Running HYMET
 - Handles intermediate file passing between stages
 
 ### Execution Flow
+
+### Mermaid Diagrams
+
+The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
+
+```mermaid
+graph TD;
+    accTitle: the diamond pattern
+    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```    
 1. Raw FASTQ
    ├─[QC? Yes]→ Trimmomatic → 2
    └─[QC? No]→ 2
