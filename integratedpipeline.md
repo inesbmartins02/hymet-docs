@@ -41,4 +41,4 @@ Select specific modules using flags:
 ```  
 *(Skips assembly, proceeds directly to analysis with cleaned reads)*  
 
-[Back to Traditional Mode](./hymetsimple.md)
+[Back to Traditional Mode](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html)
