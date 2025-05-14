@@ -89,4 +89,4 @@ python3 mutationGCF.py
 - Mutation rate (0-1, e.g., 0.2 for 20% mutation)  
 
 ---  
-*Note: Process taxonomic groups separately to avoid system overload *
+*Note: Process taxonomic groups separately to avoid system overload*
