@@ -88,9 +88,7 @@ Properly formatted FASTA files (`read_aa.fna`, `read_ab.fna`, etc.) ready for an
 ## Next Step: Choose Your Analysis Path
 
 [**I just want to classify my reads/contigs**  
-*(Skip preprocessing, analyze FASTA files directly)*  
-→ Proceed to Basic Requirements](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple .mr-2 }
+→ Proceed to Traditional Direct Analysis](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple .mr-2 }
 
 [**I want to apply host removal and/or assembly**  
-*(Full pipeline for raw FASTQ processing)*  
 → Proceed to Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }

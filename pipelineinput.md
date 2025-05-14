@@ -63,9 +63,8 @@ pigz -9 file.fastq      # Parallel compression
 ## Next Step: Choose Your Analysis Path
 
 [**I just want to classify my reads: Convert FASTQ to FASTA**   
-→ See conversion guide](https://inesbmartins02.github.io/hymet-docs/hymetsimple.md){: .btn .btn-purple }
+→ Proceed to Traditional Direct Analysis](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple }
 
-[**Run full pipeline: QC or/and Host Removal or/and Assembly**  
-*(Recommended for host-contaminated samples)*  
-→ Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
+[**Run full pipeline: QC or/and Host Removal or/and Assembly**   
+→ Proceed to Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
 
