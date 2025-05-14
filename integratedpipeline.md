@@ -15,7 +15,7 @@ parent: Running HYMET
 - Handles intermediate file passing between stages
 
 ### Execution Flow
-```mermaid
+<div class="mermaid">
 graph TD
     A[Input FASTQ] --> B{QC Step?}
     B -->|Yes| C[Trimmomatic]
@@ -27,7 +27,7 @@ graph TD
     F -->|Yes| G[SPAdes]
     F -->|No| H[HYMET Analysis]
     G --> H
-```
+</div>
 
 ### Key Features
 - **Dependency Checking**: Verifies all required tools are installed
