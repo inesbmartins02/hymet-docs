@@ -53,3 +53,4 @@ HYMET offers two complementary approaches to metagenomic analysis:
   
 
 
+[Get started with installation →](https://inesbmartins02.github.io/hymet-docs/installation.html)
