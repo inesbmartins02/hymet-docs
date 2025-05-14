@@ -39,3 +39,29 @@ In this pipeline, the default threshold is set to `3.25`, meaning that for each 
 ```bash
 min_candidates=$(echo "$num_sequences * 3.25" | bc | awk '{printf("%d\n",$1 + 0.5)}')
 min_candidates=$(( min_candidates < 5 ? 5 : min_candidates ))
+```
+
+Where:
+
+* `$num_sequences`: The total number of input sequences in the directory.
+* `3.25`: The default multiplier for candidate selection.
+* A minimum of 5 candidates is enforced, even for small datasets.
+
+---
+
+### Adjusting the Threshold
+
+You can adjust the threshold based on the type and size of your input data:
+
+* **Large genomes (e.g., vertebrates) or limited resources**:
+  Use a lower multiplier like `1.25–2.25` to reduce load.
+
+* **Small genomes (e.g., prokaryotes) or high accuracy desired**:
+  Use a higher multiplier like `4.25–5.25` for better precision.
+
+* **Very large datasets (>1000 query sequences)**:
+  Use a multiplier of `1.25–2.0` to maintain performance.
+
+By tuning the threshold appropriately, you can optimize both computational efficiency and classification accuracy.
+
+```
