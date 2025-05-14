@@ -91,4 +91,4 @@ Properly formatted FASTA files (`read_aa.fna`, `read_ab.fna`, etc.) ready for an
 → Proceed to Traditional Direct Analysis](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple .mr-2 }
 
 [**I want to apply host removal and/or assembly**  
-→ Proceed to Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
+→ Proceed to Complete Pipeline Execution](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }

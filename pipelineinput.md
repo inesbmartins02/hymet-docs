@@ -66,5 +66,5 @@ pigz -9 file.fastq      # Parallel compression
 → Proceed to Traditional Direct Analysis](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html){: .btn .btn-purple }
 
 [**Run full pipeline: QC or/and Host Removal or/and Assembly**   
-→ Proceed to Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
+→ Proceed to Complete Pipeline Execution](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
 
