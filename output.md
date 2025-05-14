@@ -9,10 +9,11 @@ nav_order: 10
 After running HYMET, the tool generates an output file with taxonomic classifications. The output is formatted as follows:
 
 ```
-Query   Lineage  Taxonomic Level  Confidence
-seq1    superkingdom\:Bacteria;phylum\:Firmicutes;genus\:Staphylococcus  genus   0.9500
-seq2    superkingdom\:Bacteria;phylum\:Proteobacteria;species\:Escherichia\_coli  species 0.8700
-seq3    Unknown  root    0.0000
+| Query | Lineage | Taxonomic Level | Confidence |
+|-------|---------|-----------------|------------|
+| seq1  | superkingdom:Bacteria;phylum:Firmicutes;genus:Staphylococcus | genus | 0.9500 |
+| seq2  | superkingdom:Bacteria;phylum:Proteobacteria;species:Escherichia coli | species | 0.8700 |
+| seq3  | Unknown | root | 0.0000 |
 ```
 
 Each line in the output represents a classification result:
