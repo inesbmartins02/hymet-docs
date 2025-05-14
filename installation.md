@@ -4,6 +4,12 @@ layout: home
 nav_order: 2
 ---
 
+## Table of Contents
+- [1. Installation with Conda (Recommended)](#1-installation-with-conda-recommended)
+- [2. Clone the Repository](#2-clone-the-repository)
+- [3. Installation with Docker](#3-installation-with-docker)
+- [4. Installation with Conda Environment File](#4-installation-with-conda-environment-file)
+
 # Installation
 
 To begin using HYMET, you must first install and configure the tool. We provide options for installation using Docker (recommended for ease and reproducibility) or Conda.
@@ -69,5 +75,4 @@ conda env create -f environment.yml
 
 conda activate hymet\_env
 
-```
 ```
