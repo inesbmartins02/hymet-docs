@@ -64,4 +64,3 @@ You can adjust the threshold based on the type and size of your input data:
 
 By tuning the threshold appropriately, you can optimize both computational efficiency and classification accuracy.
 
-```
