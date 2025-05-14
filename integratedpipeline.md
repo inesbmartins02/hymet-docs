@@ -15,19 +15,15 @@ parent: Running HYMET
 - Handles intermediate file passing between stages
 
 ### Execution Flow
-<div class="mermaid">
-graph TD
-    A[Input FASTQ] --> B{QC Step?}
-    B -->|Yes| C[Trimmomatic]
-    B -->|No| D{Host Removal?}
-    C --> D
-    D -->|Yes| E[Bowtie2]
-    D -->|No| F{Assembly?}
-    E --> F
-    F -->|Yes| G[SPAdes]
-    F -->|No| H[HYMET Analysis]
-    G --> H
-</div>
+1. Raw FASTQ
+   ├─[QC? Yes]→ Trimmomatic → 2
+   └─[QC? No]→ 2
+2. Host Removal?
+   ├─[Yes]→ Bowtie2 → 3
+   └─[No]→ 3
+3. Assembly?
+   ├─[Yes]→ SPAdes → HYMET Core
+   └─[No]→ HYMET Core
 
 ### Key Features
 - **Dependency Checking**: Verifies all required tools are installed
