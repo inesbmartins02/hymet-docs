@@ -1,5 +1,5 @@
 ---
-title: HYMET input data
+title: Basic input
 layout: home
 nav_order: 4
 parent: HYMET input data
