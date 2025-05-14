@@ -41,14 +41,4 @@ Select specific modules using flags:
 ```  
 *(Skips assembly, proceeds directly to analysis with cleaned reads)*  
 
-### 3. Pipeline Structure  
-```  
-pipeline/  
-├── 1_trimming/  
-├── 2_host_removal/  
-├── 3_assembly/  
-├── run_pipeline.sh 
-
-
-
-[Back to Traditional Mode](../traditional_direct_analysis) | [Configuration Guide](../configuration)  
+[Back to Traditional Mode](./hymetsimple.md)
