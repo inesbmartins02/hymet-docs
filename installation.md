@@ -6,16 +6,16 @@ parent: Home
 ---
 
 ## Table of Contents
-- [1. Installation with Conda (Recommended)](#1-installation-with-conda-recommended)
-- [2. Clone the Repository](#2-clone-the-repository)
-- [3. Installation with Docker](#3-installation-with-docker)
-- [4. Installation with Conda Environment File](#4-installation-with-conda-environment-file)
+- [Installation with Conda (Recommended)](#1-installation-with-conda-recommended)
+- [Clone the Repository](#2-clone-the-repository)
+- [Installation with Docker](#3-installation-with-docker)
+- [Installation with Conda Environment File](#4-installation-with-conda-environment-file)
 
 # Installation
 
 To begin using HYMET, you must first install and configure the tool. We provide options for installation using Docker (recommended for ease and reproducibility) or Conda.
 
-## 1. Installation with Conda (Recommended)
+## Installation with Conda (Recommended)
 
 The easiest way to install HYMET is through Bioconda:
 
@@ -25,7 +25,7 @@ conda install -c bioconda hymet
 
 ```
 
-## 2. Clone the Repository
+## Clone the Repository
 
 Alternatively, you can clone the repository to your local environment:
 
@@ -36,7 +36,7 @@ cd HYMET
 
 ```
 
-## 3. Installation with Docker
+## Installation with Docker
 
 If you prefer using Docker, follow these steps:
 
@@ -58,7 +58,7 @@ docker run -it hymet
 
 **Inside the Container:** The environment will already be set up with all dependencies installed. Run the tool as needed.
 
-## 4. Installation with Conda Environment File
+## Installation with Conda Environment File
 
 If you cloned the repository, you can create a Conda environment from the included file:
 

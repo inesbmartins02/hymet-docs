@@ -5,7 +5,7 @@ nav_order: 3
 parent: Home
 ---
 
-## Input Requirements
+# Input Requirements
 
 ### Input File Format
 The tool expects input files in **FASTA format** (`.fna` or `.fasta`). Each file should contain metagenomic sequences with headers in the following format:

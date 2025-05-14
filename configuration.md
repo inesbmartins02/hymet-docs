@@ -5,14 +5,14 @@ nav_order: 3
 parent: Home
 ---
 
-## Reference Sketched Databases
+# Reference Sketched Databases
 
 The databases required to run the tool are available for download on Google Drive:
 - **sketch1.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 - **sketch2.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 - **sketch3.msh.gz**: [Download](https://drive.google.com/drive/folders/1YC0N77UUGinFHNbLpbsucu1iXoLAM6lm?usp=share_link)
 
-### Steps to Use the Databases
+## Steps to Use the Databases
 
 1. **Download the Files**:
    - Click on the links above to download the `.gz` files.
@@ -37,7 +37,7 @@ The databases required to run the tool are available for download on Google Driv
    - You should see the files `sketch1.msh`, `sketch2.msh`, and `sketch3.msh`.
 
 
-## Initial setup
+# Initial setup
 Ensure all scripts have execution permissions:
    ```bash
    chmod +x config.pl
