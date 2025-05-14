@@ -20,14 +20,13 @@ ATCGATCGATCG...
 +  
 BBFFBFFBFFB...  
 ```
+### Quality Considerations
 
-### Quality Considerations  
-| Parameter          | Recommended | Minimum |  
-|--------------------|-------------|---------|  
-| Read Length        | ≥100bp      | 50bp    |  
-| Q-score (Phred)   | ≥30         | ≥20     |  
-| Adapter Content   | <5%         | -       |  
-
+| Parameter        | Recommended | Minimum |
+|------------------|-------------|---------|
+| Read Length      | ≥100bp      | 50bp    |
+| Q-score (Phred) | ≥30         | ≥20     |
+| Adapter Content | <5%         | -       |
 
 ## File Structure Examples  
 
