@@ -22,7 +22,6 @@ HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be download
 ---
 ```mermaid
 graph LR
-    %% Optional Preprocessing
     A[Raw FASTQ] --> B{QC?}
     B -->|Yes| C[Trimmomatic]
     B -->|No| D{Preprocessing<br>Required?}
@@ -34,7 +33,6 @@ graph LR
     F -->|No| H[Convert to FASTA]
     G --> H
     
-    %% Core HYMET Pipeline
     H --> I[k-mer Screening<br>(Mash Screen)]
     I --> J{Dynamic Reference<br>Database Construction}
     J --> K{Genome Size<br>Analysis}
@@ -46,7 +44,6 @@ graph LR
     O --> P[Confidence Scoring]
     P --> Q[(Final Report)]
     
-    %% Style Definitions
     style A stroke:#3498db
     style B stroke:#f39c12
     style D stroke:#f39c12
