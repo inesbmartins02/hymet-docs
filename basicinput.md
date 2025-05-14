@@ -28,7 +28,7 @@ Example:
    ```  
 2. When prompted, provide the full path to your input directory:  
    ```
-   Enter path to input directory: /path/to/your/input_files/
+    Please enter the path to the input directory (containing .fna files):  /path/to/your/input_files/
    ```  
 
 ## Key Recommendations  
