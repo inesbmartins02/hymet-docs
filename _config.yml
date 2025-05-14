@@ -15,3 +15,6 @@ aux_links:
 
 # Ativar busca (opcional mas útil)
 search_enabled: true
+
+plugins:
+  - jekyll-mermaid
