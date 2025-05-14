@@ -27,4 +27,7 @@ input_dir/
 ├── sample2.fna
 └── sample3.fna
 ```
-Each file (`sample1.fna`, `sample2.fna`, etc.) should follow the FASTA format described above.
+Each file should follow the FASTA format described above.
+
+The pipeline automatically processes all valid input files through its taxonomic classification workflow, generating structured results in the output directory. Input files must follow standard \ac{FASTA} format requirements, where each sequence is preceded by a header line beginning with '>' followed by a unique identifier (e.g., >1, >sequence\_001, >contig\_1, >read\_1 etc.). These identifiers are preserved throughout the analysis and serve as the primary keys for matching sequences to their final taxonomic classifications in the output files. For optimal taxonomic resolution, \ac{HYMET} requires inputs partitioned into multiple sequence files (minimum 10 recommended). This design fundamentally enhances the pipeline's candidate selection mechanism, where reference genome retrieval scales proportionally with the number of query sequences. Since metagenomes inherently contain mixed genomic material from diverse organisms, splitting a composite sample into discrete segments presents no biological limitations while conferring significant computational advantages.
+
