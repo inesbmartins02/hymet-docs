@@ -5,12 +5,12 @@ nav_order: 7
 has_children: true
 ---
 
----
-### **Execution Modes**
+## **Execution Modes**
 
 HYMET offers two complementary approaches to metagenomic analysis:
 
 [**1. Traditional Direct Analysis**](https://inesbmartins02.github.io/hymet-docs/hymetsimple.html) 
+
 *For pre-processed data or rapid profiling*  
 - Bypasses QC, host removal, and assembly stages  
 - Executes HYMET's core hybrid engine directly on input files  
@@ -19,7 +19,8 @@ HYMET offers two complementary approaches to metagenomic analysis:
   • Prioritizing speed over comprehensive processing  
   • Using external preprocessing pipelines  
 
-[**2. Integrated Pipeline Mode**](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.md)  
+[**2. Integrated Pipeline Mode**](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.md)
+  
 *For complete end-to-end analysis*  
 - Modular workflow with three preprocessing stages:  
   1. **Smart Quality Control** - Adaptive trimming and artifact removal  
