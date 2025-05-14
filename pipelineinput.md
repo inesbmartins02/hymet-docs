@@ -76,15 +76,10 @@ seqtk seq -A input.fastq > output.fna
 gzip -d file.fastq.gz    # Decompress  
 pigz -9 file.fastq      # Parallel compression  
 ```  
-
-## Troubleshooting  
-
-**Common Issues**  
-- Mixed formats in same directory → Use consistent extensions  
-- Corrupt gzip files → Verify with `zcat file.fastq.gz | head`  
-- Memory limits → Split files >10GB with:  
-  ```bash  
-  split -l 4000000 big.fastq chunk_  
-  ```  
 ---
+
+[**Run full pipeline: QC or/and Host Removal or/and Assembly**  
+*(Recommended for host-contaminated samples)*  
+→ Pipeline Requirements](https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html){: .btn .btn-green }
+
 [Back to Basic Input](https://inesbmartins02.github.io/hymet-docs/basicinput.html)

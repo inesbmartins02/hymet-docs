@@ -34,7 +34,7 @@ HYMET accepts multiple input types across different processing modes, each optim
       <li>Fastest analysis path</li>
     </ul>
     <a href="https://inesbmartins02.github.io/hymet-docs/basicinput.html" class="btn btn-purple">Check your FASTA files →</a>
-    <a href="https://inesbmartins02.github.io/hymet-docs/hymetsimple.html" class="btn btn-purple">Execute HYMET →</a>
+    <!-- <a href="https://inesbmartins02.github.io/hymet-docs/hymetsimple.html" class="btn btn-purple">Execute HYMET →</a> -->
   </div>
 
   <div class="option-card">
@@ -45,8 +45,8 @@ HYMET accepts multiple input types across different processing modes, each optim
       <li>Optional assembly</li>
       <li>End-to-end processing</li>
     </ul>
-    <a href="https://inesbmartins02.github.io/hymet-docs/pipelineinput.html" class="btn btn-purple">Check your FASTQ files →</a>
-    <a href="https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html" class="btn btn-purple">Use Pipeline Mode →</a>
+    <a href="https://inesbmartins02.github.io/hymet-docs/pipelineinput.html" class="btn btn-blue">Check your FASTQ files →</a>
+    <!-- <a href="https://inesbmartins02.github.io/hymet-docs/integratedpipeline.html" class="btn btn-purple">Use Pipeline Mode →</a> -->
   </div>
 
   <div class="option-card">
