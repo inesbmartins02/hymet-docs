@@ -16,20 +16,9 @@ aux_links:
 # Ativar busca (opcional mas útil)
 search_enabled: true
 
-mermaid:
-  # Version of mermaid library
-  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
-
 back_to_top: true
 back_to_top_text: "Back to top"
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-sitemap
-  
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
 
