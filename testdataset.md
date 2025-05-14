@@ -88,28 +88,5 @@ python3 mutationGCF.py
 - Input/output paths  
 - Mutation rate (0-1, e.g., 0.2 for 20% mutation)  
 
-## Important Notes  
-
-- **Domain Processing**: Process taxonomic groups separately to avoid system overload  
-- **Data Flow**:  
-  ```mermaid
-  graph LR
-    A[Assembly Summaries] --> B[createDatabase.py]
-    B --> C[Raw GCFs]
-    C --> D[filterGCF.py]
-    D --> E[10% Subset]
-    E --> F[Optional Processing]
-  ```
-<!-- - **Output Structure**:  
-  ```
-  testdataset_output/
-  ├── archaea/
-  │   ├── processed/
-  │   └── taxonomy.csv
-  ├── bacteria/
-  │   ├── mutated/ (if applicable)
-  │   └── gcf_mapping.csv
-  └── [...]
-  ``` -->
-
-> **Tip**: For first-time users, run just Steps 1-3 with a single domain (e.g., bacteria) to verify pipeline functionality before processing larger datasets.
+---  
+*Note: Process taxonomic groups separately to avoid system overload *
