@@ -17,7 +17,7 @@ parent: Running HYMET
 ### Execution Flow
 
 ```mermaid
-graph TD
+graph LR
     A[Input FASTQ] --> B{QC Step?}
     B -->|Yes| C[Trimmomatic]
     B -->|No| D{Host Removal?}
