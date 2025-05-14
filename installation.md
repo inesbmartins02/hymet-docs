@@ -67,6 +67,6 @@ conda env create -f environment.yml
 
 ```
 
-conda activate hymet\_env
+conda activate hymet_env
 
 ```
