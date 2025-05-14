@@ -18,7 +18,7 @@ parent: Running HYMET
 
 ```mermaid
 graph LR
-    A[Input FASTQ] --> B{QC Step?}
+    A[Input FASTQ/FASTA] --> B{QC Step?}
     B -->|Yes| C[Trimmomatic]
     B -->|No| D{Host Removal?}
     C --> D
