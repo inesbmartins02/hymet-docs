@@ -58,3 +58,5 @@ If installed via Conda, you can use:
 hymet-config
 hymet
 ```
+
+[Next step: Prepare your input files →](https://inesbmartins02.github.io/hymet-docs/input.html)

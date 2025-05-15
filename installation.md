@@ -58,3 +58,4 @@ conda env create -f environment.yml
 ```
 conda activate hymet_env
 ```
+[Next Step: Configuration →](https://inesbmartins02.github.io/hymet-docs/configuration.html)
