@@ -13,7 +13,7 @@ HYMET version 1.0.0 was released under MIT on June xrd, 2025 and can be download
 ### **Workflow overview**
 
 <figure style="text-align: center; margin: 2rem 0;">
-  <img src="{{ '/assets/images/hymet.png' | relative_url }}" 
+  <img src="{{ '/assets/images/hymet1.png' | relative_url }}" 
        alt="Diagrama completo do pipeline HYMET"
        style="max-width: 100%; height: auto; width: 600px;">
   <figcaption style="font-style: italic; margin-top: 0.5rem; color: #555;">
